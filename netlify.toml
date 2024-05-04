@@ -9,7 +9,7 @@
   headers = { Access-Control-Allow-Origin = "*" }
 
 [[redirects]]
-  from = "/api/*"
+  from = "/"
   to = "https://i.postimg.cc/"
   status = 200
 

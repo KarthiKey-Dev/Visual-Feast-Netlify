@@ -38,8 +38,6 @@ position: right
     const options = {
         "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
         "accept-language": "en-US,en;q=0.9,ta;q=0.8,hi;q=0.7",
-        "cookie": "ext_name=ojplmecpdpgccookcobabopnaifgidhf",
-        "priority": "i",
         "referer": "https://image-cdn-playground.netlify.app/",
         "sec-ch-ua": "\"Chromium\";v=\"124\", \"Google Chrome\";v=\"124\", \"Not-A.Brand\";v=\"99\"",
         "sec-ch-ua-mobile": "?0",
