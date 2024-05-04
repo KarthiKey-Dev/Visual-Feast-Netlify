@@ -3,15 +3,15 @@
   publish = "build"
   
 [[redirects]]
-from = "/*"
-to = "/index.html"
-status = 200
-headers = { Access-Control-Allow-Origin = "*" }
+  from = "/*"
+  to = "/index.html"
+  status = 200
+  headers = { Access-Control-Allow-Origin = "*" }
 
 [[headers]]
-for = "/*"
-[headers.values]
-Access-Control-Allow-Origin = "*"
+  for = "/*"
+    [headers.values]
+      Access-Control-Allow-Origin = "*"
 
 [images]
   remote_images = ["https://i.postimg.cc/.*"]
