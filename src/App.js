@@ -140,7 +140,7 @@ function App() {
   return (
     <div className="app">
       <ImageGallery images={images} onClick={handleImgClick} />
-      <div style={{display : "flex", flexWrap : "wrap", width : "100%"}}>
+      <div style={{display : "flex", flexWrap : "wrap", width : "100%", margin : "10px" , padding : "10px" , border : "2px solid black"}}>
 
       URL {preview}
       </div>
